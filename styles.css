@@ -1,0 +1,67 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+  background-color: #c4ff00;
+}
+
+body{
+  background-color: black;
+  color: white;
+  font-family: Space Mono;
+}
+h1{
+  font-size: 35px;
+}
+
+p {
+  font-size: 25px;
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+li a:hover {
+  background-color: #e3ff00;
+}
+
+.active {
+  background-color: #ff6f1d;
+}
+
+#welcome-section {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQJm6dAUAzFgYs9ND-VDsdYtex6OguFkOmXV4Xh9I3S8YkefCgF);
+}
+
+#projects{
+    height: 500px;
+    text-align: center;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.column{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  border: 1px solid red;
+}
